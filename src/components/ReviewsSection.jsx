@@ -17,7 +17,7 @@ const ReviewsSection = () => {
             id: 2,
             rating: 5,
             text: "Amazing experience with exceptional service! Every detail was perfectly planned and executed. Highly recommend for anyone looking for unforgettable travel memories.",
-            author: "Sarah Johnson",
+            author: "David Johnson",
             location: "London",
             image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
         },
@@ -47,7 +47,7 @@ const ReviewsSection = () => {
     };
 
     return (
-        <section className="py-20 px-6 lg:px-12 bg-[#FEF8F2]">
+        <section className="py-20 px-6 lg:px-12 bg-[#FEF8F2]" id="reviews">
             <div className="max-w-5xl mx-auto">
                 {/* Section Header */}
                 <div className="text-center space-y-4 mb-16">

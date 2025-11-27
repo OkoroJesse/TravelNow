@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className="space-y-6">
                         <div className="flex items-center gap-2">
                             <div className="w-8 h-8 bg-orange-500 rotate-45 transform"></div>
-                            <h2 className="text-3xl font-bold">Brahamas</h2>
+                            <h2 className="text-3xl font-bold">TravelNow</h2>
                         </div>
                         <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
                             Turning your travel dreams into unforgettable journeys.
@@ -59,7 +59,7 @@ const Footer = () => {
                             <h3 className="text-lg font-bold mb-4">Contact No.:</h3>
                             <div className="text-gray-400 text-sm space-y-2">
                                 <p>+91 98765 43210</p>
-                                <p>hello@escapora.com</p>
+                                <p>hello@travelnow.com</p>
                                 <p>Mon - Sat (9 AM - 8 PM IST)</p>
                             </div>
                         </div>
@@ -69,7 +69,7 @@ const Footer = () => {
                 {/* Bottom Bar */}
                 <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
                     <p>
-                        2025 Brahamas Travel World. | Designed with <Heart size={14} className="inline text-orange-500 fill-orange-500 mx-1" /> by brahamas.
+                        2025 TravelNow. | Designed with <Heart size={14} className="inline text-orange-500 fill-orange-500 mx-1" /> by TravelNow.
                     </p>
                     <div className="flex gap-6">
                         <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>

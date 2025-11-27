@@ -89,6 +89,15 @@ const HeroSection = () => {
                                     <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary group-hover:w-full transition-all duration-300"></span>
                                 </a>
                             </li>
+                            <li>
+                                <a
+                                    href="#contact"
+                                    className="text-white/90 hover:text-white font-medium transition-colors duration-200 relative group"
+                                >
+                                    Contact
+                                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary group-hover:w-full transition-all duration-300"></span>
+                                </a>
+                            </li>
                         </ul>
 
                         {/* Account Button */}

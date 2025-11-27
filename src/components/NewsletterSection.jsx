@@ -37,7 +37,7 @@ const NewsletterSection = () => {
                                 {/* Heading */}
                                 <h2 className="text-5xl lg:text-7xl font-bold text-white leading-tight tracking-tight">
                                     Travel smarter <br />
-                                    with escapora.
+                                    with <span className="text-primary">TravelNow.</span>
                                 </h2>
 
                                 {/* Subtext */}
@@ -81,7 +81,7 @@ const NewsletterSection = () => {
                             <div className="space-y-6">
                                 <div className="flex items-center gap-2">
                                     <Asterisk size={32} className="text-orange-500" />
-                                    <h2 className="text-3xl font-bold">Escapora</h2>
+                                    <h2 className="text-3xl font-bold">TravelNow</h2>
                                 </div>
                                 <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
                                     Turning your travel dreams into unforgettable journeys.
@@ -130,7 +130,7 @@ const NewsletterSection = () => {
                                     <h3 className="text-lg font-bold mb-4">Contact No.:</h3>
                                     <div className="text-gray-400 text-sm space-y-2">
                                         <p>+91 98765 43210</p>
-                                        <p>hello@escapora.com</p>
+                                        <p>hello@travelnow.com</p>
                                         <p>Mon - Sat (9 AM - 8 PM IST)</p>
                                     </div>
                                 </div>
@@ -140,14 +140,14 @@ const NewsletterSection = () => {
                         {/* Bottom Bar */}
                         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
                             <p>
-                                2025 Escapora Travel World. | Designed with <Heart size={14} className="inline text-orange-500 fill-orange-500 mx-1" /> for explorers.
+                                2025 TravelNow. | Designed with <Heart size={14} className="inline text-orange-500 fill-orange-500 mx-1" /> for explorers.
                             </p>
                             <p className="hidden md:block">
-                                Powered by Webflow.
+                                Powered by TravelNow.
                             </p>
                             <div className="flex items-center gap-2">
                                 <span>Design & Developed by</span>
-                                <span className="font-bold text-white">Unity Infoway</span>
+                                <span className="font-bold text-white">TravelNow</span>
                             </div>
                         </div>
                     </div>
