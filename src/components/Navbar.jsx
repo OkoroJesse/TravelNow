@@ -13,6 +13,18 @@ const Navbar = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
+    // Disable body scroll when mobile menu is open
+    useEffect(() => {
+        if (mobileMenuOpen) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'unset';
+        }
+        return () => {
+            document.body.style.overflow = 'unset';
+        };
+    }, [mobileMenuOpen]);
+
     return (
         <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white/90 backdrop-blur-md shadow-md py-4' : 'bg-transparent py-6'}`}>
             <div className="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between">
@@ -89,7 +101,7 @@ const Navbar = () => {
 
             {/* Mobile Menu */}
             {mobileMenuOpen && (
-                <div className="md:hidden fixed inset-0 z-50 bg-white animate-in slide-in-from-top duration-300">
+                <div className="md:hidden fixed inset-0 z-[60] bg-white transition-transform duration-300 h-screen w-screen overflow-y-auto">
                     <div className="flex flex-col h-full">
                         {/* Mobile Menu Header */}
                         <div className="flex items-center justify-between px-6 py-6 border-b border-gray-100">
