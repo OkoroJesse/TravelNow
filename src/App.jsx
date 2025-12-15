@@ -7,6 +7,7 @@ import ExploreDestinationSection from './components/ExploreDestinationSection'
 import ReviewsSection from './components/ReviewsSection'
 import ContactSection from './components/ContactSection'
 import NewsletterSection from './components/NewsletterSection'
+import WhatsAppButton from './components/WhatsAppButton'
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       <ReviewsSection />
       <ContactSection />
       <NewsletterSection />
-      {/* Additional sections will be added here */}
+      <WhatsAppButton />
     </div>
   )
 }
